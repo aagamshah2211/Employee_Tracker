@@ -12,7 +12,6 @@ module.exports = function(app) {
             required: true
         },
         location: {
-            // GeoJSON Point
             type: {
                 type: String,
                 enum: ['Point'],
